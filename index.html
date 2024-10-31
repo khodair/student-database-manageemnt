@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.google.com/search?q=fonts+google&oq=fonts&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCTI4MjIxajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>student database management</title>
+</head>
+<body>
+    <div class="title">
+            <h1><br>student database management</h1><br>
+            </div>
+            <div class="container-fluid">
+                <h2>Add student</h2>
+            </div>
+       <div class="forms-groups">
+        <form class="add student" action="/action_page.php" autocomplete="on" id="student-form">
+            <div>
+            <label for="student Name">student Name:</label>
+            <input type="text" id="student name" placeholder="student Name"><br><br>
+             <label for="student id">Email:</label>
+             <input type="text" id="Email" placeholder="Email"><br><br>
+             <label for="student Age">student Age:</label>
+             <input type="number" id="student Age" placeholder="student Age"><br><br>
+             <label for="class" id="class">grade:</label>
+             <input type="text" id="grade" placeholder="grade"><br><br>
+                </div>
+               </div>
+                </form>
+<div class="btn">
+    <button type="button" onclick="showstudenttable()">Add student</button>
+</div>
+     <!-- student table -->  
+     <table border="4" id="show">
+        <thead>
+            <tr>
+                <th>student Name</th>
+                <th>Email</th>
+                <th>student Age</th>
+                <th>grade</th>
+            </tr>
+        </thead>
+    </table>
+</center>
+<script src=".\main.js"></script>       
+</body>
+</html>

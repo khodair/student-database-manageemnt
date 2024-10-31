@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:gray;
+}
+.title h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-left: 23px;
+}
+.container-fluid h2{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 40px;
+}
+.forms-groups{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+.forms-groups label{
+display:block;
+margin: 10px;
+}
+.forms-groups input{
+    padding: 0 5px;
+    margin: 10px;
+    background-color: white;
+    width: 50vh;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.btn{
+    text-align: center;
+    color: black;
+}
+.btn button{
+    display: inline;
+    margin: 70px 50px;
+    background-color: white;
+    padding: 10px 20px;
+    width: 25vh;
+    height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+}
+table{
+	margin-top: 50px;
+	text-align: center;
+	background: gray;
+	color: black;
+    margin: auto;
+    width: 50%;
+    height: 80px;
+}
+
+#show th, #show td{
+	padding: 13px;
+    background-color: white;
+    font-size: 30px;
+}
